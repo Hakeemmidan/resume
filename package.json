@@ -1,0 +1,21 @@
+{
+  "name": "resume-website",
+  "version": "1.0.0",
+  "description": "Online resume of Abdulhakeem Almidan",
+  "scripts": {
+    "compile:sass": "node-sass ./main.scss ./style.css"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hakeemmidan/resume.git"
+  },
+  "author": "Hakeem Almidan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hakeemmidan/resume/issues"
+  },
+  "homepage": "https://github.com/Hakeemmidan/resume#readme"
+}
