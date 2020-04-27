@@ -40,6 +40,16 @@ let workExperience = new Vue({
   }
 })
 
+let education = new Vue({
+  el: "#education",
+  data: {
+    units: [
+      'BS Finance - Oregon State University | 2014 - 2019',
+      'Software Engineering - App Academy | Summer 2019'
+    ]
+  }
+})
+
 let projects = new Vue({
   el: '#projects',
   data: {

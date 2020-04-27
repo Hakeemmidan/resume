@@ -58,18 +58,15 @@
         </li>
       </ul>
     </div>
-
+  </div>
+  
   <br>
   <hr>
   <!-- Education -->
-  <div class="full-width-container education">
+  <div id="education" class="full-width-container education">
     <h3>Education</h3>
-    <span>
-      BS Finance- Oregon State University | 2014 - 2019
-    </span>
-
-    <span>
-      Software Engineering - App Academy | Summer 2019
+    <span v-for="unit in units">
+      {{ unit }}
     </span>
   </div>
 
@@ -78,8 +75,7 @@
   <!-- PROJECTS -->
   <div id="projects" class="full-width-container ">
     <h3>Projects</h3>
-
-    </div>
+    
   </div>
 
   <!-- CONTACT -->
