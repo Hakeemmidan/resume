@@ -53,5 +53,80 @@ let education = new Vue({
 let projects = new Vue({
   el: '#projects',
   data: {
+    projects: [
+      {
+        image: '',
+        title: 'OSUChat',
+        description: 'Oregon State University’s first fully functional chat system',
+        highlights: [
+          'Installed Action Cable / web sockets to build a chat mechanism for simultaneous live communication',
+          'Linked React to backend and created chat scroll pagination mechanism without use of external gems or libraries for faster site performance'
+        ],
+        tech: {
+          database: 'PostgreSQL',
+          backend: 'Ruby on Rails',
+          frontend: 'React, Redux'
+        },
+        links: {
+          doc: 'https://github.com/Hakeemmidan/OSUChat',
+          live: 'http://www.osuchat.com'
+        }
+      },
+      {
+        image: '',
+        title: 'Wikipedia Reliability Rater (group project: 4 developers)',
+        description: 'A Wikipedia article reliability measurement tool',
+        highlights: [
+          "Leveraged ‘request’, ‘cheerio’, and ‘url - parse’ Node packages to web crawl / scrape page specific information(citations, author statistics, etc.)",
+          'Employed MediaWiki API to extract targeted Wikipedia article information for display',
+          'Integrated D3.js Node package on the frontend to display author-specific data'
+        ],
+        tech: {
+          database: 'MongoDB',
+          backend: 'Express, Node',
+          frontend: 'React, Redux'
+        },
+        links: {
+          doc: 'https://github.com/michaeltorres1/WiRR',
+          live: 'http://www.wikipediarr.com/'
+        }
+      },
+      {
+        image: '',
+        title: 'Professional Blog',
+        description: '',
+        highlights: [
+          "Customized Hugo theme by introducing new archtypes and taxanomies",
+          'Enhanced SEO by creating structured data markup and 20+ meta tags'
+        ],
+        tech: {
+          database: 'n/a',
+          backend: 'n/a',
+          frontend: 'Hugo, Sass'
+        },
+        links: {
+          doc: 'https://github.com/Hakeemmidan/personal-website',
+          live: 'https://www.hakeem-almidan.com/'
+        }
+      },
+      {
+        image: '',
+        title: 'Rails User Auth',
+        description: 'An open-sourced user authorization',
+        highlights: [
+          'Connected Action Mailer with SMTP to deliver confirmation and password reset emails',
+          'Utilizing Sass to create mobily responsive minimalistic design'
+        ],
+        tech: {
+          database: 'PostgreSQL',
+          backend: 'Ruby on Rails',
+          frontend: 'React, Redux'
+        },
+        links: {
+          doc: 'https://github.com/Hakeemmidan/rails-user-auth',
+          live: 'N/A'
+        }
+      },
+    ]
   }
 })
