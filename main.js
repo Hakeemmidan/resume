@@ -100,8 +100,8 @@ let projects = new Vue({
           'Enhanced SEO by creating structured data markup and 20+ meta tags'
         ],
         tech: {
-          database: 'n/a',
-          backend: 'n/a',
+          database: 'N/A',
+          backend: 'N/A',
           frontend: 'Hugo, Sass'
         },
         links: {

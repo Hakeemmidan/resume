@@ -75,32 +75,55 @@
   <!-- PROJECTS -->
   <div id="projects" class="full-width-container ">
     <h3>Projects</h3>
-    <div>
-      <img src="" alt="">
+    <div v-for="(project, projIdx) in projects" :key="project.title - projIdx">
+      <img src="image" alt="project image">
       <span>
-          <h5>
-            <!-- title -->
-          </h5>
+          <span>
+            <h5>
+              {{ project.title }}
+            </h5>
+            <span>
+              <span v-if="project.links.live === 'N/A'">
+                N/A
+              </span>
+              <a v-else href="links.live">
+                live
+              </a>
+              &nbsp; | &nbsp;
+              <span v-if="project.links.doc === 'N/A'">
+                N/A
+              </span>
+              <a v-else href="links.doc">
+                doc
+              </a>
+            </span>
+          </span>
           <div>
             <div>
-              <!-- description -->
+              <div>
+                {{ project.description }}
+              </div>
+
             </div>
             <ul>
-              <li>
-                <!-- highlight -->
+              <li v-for="(highlight) in project.highlights" :key="highlight">
+                {{ highlight }}
               </li>
             </ul>
             <span>
-              <!-- tech used -->
-              <span>
+              <div>Technologies</span>
+              <div>
+                <b>Database: </b> {{ project.tech.database }}
                 <!-- database -->
-              </span>
-              <span>
+              </div>
+              <div>
+                <b>Backend: </b> {{ project.tech.backend }}
                 <!-- backend -->
-              </span>
-              <span>
+              </div>
+              <div>
+                <b>Frontend: </b> {{ project.tech.frontend }}
                 <!-- frontend -->
-              </span>
+              </div>
             </span>
           </div>
       </span>
