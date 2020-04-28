@@ -55,7 +55,7 @@ let projects = new Vue({
   data: {
     projects: [
       {
-        image: '',
+        image: 'assets/OSUChat_image.png',
         title: 'OSUChat',
         description: 'Oregon State University’s first fully functional chat system',
         highlights: [
@@ -73,7 +73,7 @@ let projects = new Vue({
         }
       },
       {
-        image: '',
+        image: 'assets/WiRR_image.png',
         title: 'Wikipedia Reliability Rater (group project: 4 developers)',
         description: 'A Wikipedia article reliability measurement tool',
         highlights: [
@@ -92,7 +92,7 @@ let projects = new Vue({
         }
       },
       {
-        image: '',
+        image: 'assets/blog_image.png',
         title: 'Professional Blog',
         description: '',
         highlights: [
@@ -110,7 +110,7 @@ let projects = new Vue({
         }
       },
       {
-        image: '',
+        image: 'assets/rails-user-auth_image.png',
         title: 'Rails User Auth',
         description: 'An open-sourced user authorization',
         highlights: [

@@ -76,7 +76,7 @@
   <div id="projects" class="full-width-container ">
     <h3>Projects</h3>
     <div v-for="(project, projIdx) in projects" :key="project.title - projIdx">
-      <img src="image" alt="project image">
+      <img :src="project.image" alt="project image">
       <span>
           <span>
             <h5>
@@ -86,14 +86,14 @@
               <span v-if="project.links.live === 'N/A'">
                 N/A
               </span>
-              <a v-else href="links.live">
+              <a v-else :href="project.links.live">
                 live
               </a>
               &nbsp; | &nbsp;
               <span v-if="project.links.doc === 'N/A'">
                 N/A
               </span>
-              <a v-else href="links.doc">
+              <a v-else :href="project.links.doc">
                 doc
               </a>
             </span>
