@@ -45,7 +45,6 @@ body {
 #work-experience {
   height: auto;
   overflow: hidden;
-  transform-origin: top;
   background-color: #4d85bd;
   color: #f4f9ff;
   animation: slide-right-to-left 2s, text-appear 4s; }
@@ -53,7 +52,6 @@ body {
 #education {
   height: auto;
   overflow: hidden;
-  transform-origin: top;
   background-color: #7caa2d;
   color: #f9fbf6;
   animation: slide-left-to-right 2s, text-appear 4s; }
@@ -61,10 +59,12 @@ body {
 #projects {
   height: auto;
   overflow: hidden;
-  transform-origin: top;
   color: #f58700;
   background-color: #FFDF77;
   animation: slide-right-to-left 2s, text-appear 4s; }
+
+#contact {
+  animation: opacity-appear 4s; }
 
 .u-space-between, .u-space-between__reverse-stack {
   display: flex;
@@ -99,6 +99,12 @@ body {
   100% {
     right: 0vw;
     max-height: 2.7rem; } }
+
+@keyframes opacity-appear {
+  0% {
+    opacity: 0.0; }
+  70% {
+    opacity: 0.0; } }
 
 @keyframes text-appear {
   0% {

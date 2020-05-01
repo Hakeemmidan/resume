@@ -1,4 +1,4 @@
-Resume webpage
+[Resume webpage](https://hakeemmidan.github.io/resume)
 
 ## Tech Stack
 - Database: N/A
