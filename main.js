@@ -120,7 +120,7 @@ let projects = new Vue({
         },
         links: {
           doc: 'https://github.com/Hakeemmidan/resume',
-          live: 'N/A'
+          live: 'https://hakeemmidan.github.io/resume'
         }
       },
       {
@@ -157,7 +157,7 @@ let projects = new Vue({
           doc: 'https://github.com/Hakeemmidan/Jewely',
           live: 'https://jewely-fsp.herokuapp.com/'
         }
-      },
+      }
     ]
   }
 })
