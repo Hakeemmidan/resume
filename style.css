@@ -7,10 +7,10 @@ body {
   line-height: 1.5; }
 
 .project-image {
-  width: 30rem; }
+  width: 15rem; }
 
 .full-horizontal {
-  padding: 0 15vw;
+  padding: 2rem 15vw;
   position: relative; }
 
 .personal-image {
@@ -19,11 +19,16 @@ body {
   margin: 1rem 0 0 3rem; }
 
 #work-experience {
+  height: auto;
   background-color: #4d85bd;
   color: #d0e7ff;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
   animation: slide-right-to-left 2s, text-appear 4s; }
+
+#education {
+  height: auto;
+  background-color: #7caa2d;
+  color: #dff9b3;
+  animation: slide-left-to-right 2s, text-appear 4s; }
 
 .u-space-between {
   display: flex;
@@ -33,7 +38,7 @@ body {
   html {
     font-size: 85%; }
   .full-horizontal {
-    padding: 0 5vw; }
+    padding: 2rem 5vw; }
   .u-space-between {
     flex-direction: column-reverse; }
   .personal-image-container {
@@ -44,9 +49,22 @@ body {
 @keyframes slide-right-to-left {
   0% {
     left: 100vw;
-    border-radius: 30%; }
+    border-radius: 30%;
+    transform: scaleY(0.1); }
   100% {
+    transform: scaleY(1);
+    height: max-content;
     left: 0vw; } }
+
+@keyframes slide-left-to-right {
+  0% {
+    right: 100vw;
+    border-radius: 30%;
+    transform: scaleY(0.1); }
+  100% {
+    transform: scaleY(1);
+    height: max-content;
+    right: 0vw; } }
 
 @keyframes text-appear {
   0% {
