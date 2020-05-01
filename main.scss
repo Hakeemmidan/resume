@@ -36,6 +36,7 @@ $color-leafy-green-light: #dff9b3;
 
 #work-experience {
   height: auto;
+  transform-origin:top;
   background-color: $color-sky-blue;
   color: $color-sky-blue-light;
   animation: slide-right-to-left 2s, text-appear 4s;
@@ -43,6 +44,7 @@ $color-leafy-green-light: #dff9b3;
 
 #education {
   height: auto;
+  transform-origin:top;
   background-color: $color-leafy-green;
   color: $color-leafy-green-light;
   animation: slide-left-to-right 2s, text-appear 4s;
@@ -82,11 +84,10 @@ $color-leafy-green-light: #dff9b3;
   0% { 
     left: 100vw;
     border-radius: 30%;
-    transform: scaleY(0.1);
   }
 
   100% {
-    transform: scaleY(1.0);
+    transform: scaleY(0.1);
     height: max-content;
     left: 0vw;
   }
@@ -96,17 +97,27 @@ $color-leafy-green-light: #dff9b3;
   0% { 
     right: 100vw;
     border-radius: 30%;
-    transform: scaleY(0.1)
   }
 
   100% {
-    transform: scaleY(1.0);
+    transform: scaleY(0.1);
     height: max-content;
     right: 0vw;
   }
 }
 
 @keyframes text-appear {
-  0% { color: transparent; }
-  50% { color: transparent; }
+  0% { 
+    color: transparent;
+    transform: scaleY(0.1);
+  }
+
+  50% {
+    transform: scaleY(0.1);
+  }
+
+  70% {
+    color: transparent;
+    transform: scaleY(1.0);
+  }
 }
