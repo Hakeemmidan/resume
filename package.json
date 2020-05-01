@@ -1,7 +1,7 @@
 {
   "name": "resume-website",
   "version": "1.0.0",
-  "description": "Online resume of Abdulhakeem Almidan",
+  "description": "Abdulhakeem Almidan's resume webpage",
   "scripts": {
     "compile:sass": "node-sass ./main.scss ./style.css"
   },
