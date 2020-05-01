@@ -36,6 +36,8 @@ $color-leafy-green-light: #dff9b3;
 
 #work-experience {
   height: auto;
+  overflow: hidden;
+  max-height: 100vh;
   transform-origin:top;
   background-color: $color-sky-blue;
   color: $color-sky-blue-light;
@@ -44,6 +46,8 @@ $color-leafy-green-light: #dff9b3;
 
 #education {
   height: auto;
+  overflow: hidden;
+  max-height: 100vh;
   transform-origin:top;
   background-color: $color-leafy-green;
   color: $color-leafy-green-light;
@@ -95,7 +99,7 @@ $color-leafy-green-light: #dff9b3;
   }
 
   100% {
-    transform: scaleY(0.1);
+    max-height: 3rem;
     height: max-content;
     left: 0vw;
   }
@@ -108,7 +112,7 @@ $color-leafy-green-light: #dff9b3;
   }
 
   100% {
-    transform: scaleY(0.1);
+    max-height: 3rem;
     height: max-content;
     right: 0vw;
   }
@@ -117,15 +121,14 @@ $color-leafy-green-light: #dff9b3;
 @keyframes text-appear {
   0% { 
     color: transparent;
-    transform: scaleY(0.1);
+    max-height: 3rem;
   }
 
   50% {
-    transform: scaleY(0.1);
+    max-height: 3rem;
   }
 
   70% {
     color: transparent;
-    transform: scaleY(1.0);
   }
 }
