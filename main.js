@@ -96,8 +96,8 @@ let projects = new Vue({
         title: 'Professional Blog',
         description: 'My personal professional blog',
         highlights: [
-          "Customized Hugo theme by introducing new archtypes and taxanomies",
-          'Enhanced SEO by creating structured data markup and 20+ meta tags'
+          'Introduced new archtypes and taxanomies to customize Hugo theme',
+          'Created structured data markup and 20+ meta tags for better SEO'
         ],
         tech: {
           database: 'N/A',
@@ -107,6 +107,24 @@ let projects = new Vue({
         links: {
           doc: 'https://github.com/Hakeemmidan/personal-website',
           live: 'https://www.hakeem-almidan.com/'
+        }
+      },
+      {
+        image: '',
+        title: 'Resume Webpage',
+        description: 'A webpage that displays an expanded version of my resume',
+        highlights: [
+          'Learned and implemented Vue fundementals (attribute binding, conditional rendering, and list rendering) for DRY HTML code',
+          'Created and customized mobile-friendly animated design for better UI'
+        ],
+        tech: {
+          database: 'N/A',
+          backend: 'N/A',
+          frontend: 'Vue, Sass'
+        },
+        links: {
+          doc: 'https://github.com/Hakeemmidan/resume',
+          live: 'N/A'
         }
       },
       {
