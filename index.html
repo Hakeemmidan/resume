@@ -4,14 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <link rel="stylesheet" href="style.css">
   <title>Resume Webpage | Abdulhakeem Almidan</title>
 </head>
 <body>
   
-  <div>
+  <div class="u-space-between full-horizontal">
     <div>
       <h1>Abdulhhakeem Almidan</h1>
-      <span>
+      <div>
         <p>
           Hi, I’m Abdulhakeem. You can call Hakeem. I have experience building full-stack applications in many languages and
           frameworks. What I’ve learned
@@ -28,23 +29,25 @@
         <p>
           I am currently looking for software engineering and finance positions and I would love to hear about your company!
         </p>
-      </span>
+      </div>
     </div>
-    <img src="./assets/Hakeem.png" alt="Image of Abdulhakeem Almdian">
+    <div class="personal-image-container">
+      <img class="personal-image" src="./assets/Hakeem.png" alt="Image of Abdulhakeem Almdian">
+    </div>
   </div>
 
   <br>
   <hr>
   <!-- WORK EXPERIENCE -->
-  <div id="work-experience" class="full-width-container">
-    <h3>Work Experience</h3>
+  <div id="work-experience" class="full-horizontal">
+    <h2>Work Experience</h2>
     <div v-for="pos in positions">
       <div>
-        <span>
+        <b>
           {{ pos.title }}
-        </span>
+        </b>
       </div>
-      <div>
+      <div class="u-space-between">
         <span>
           {{ pos.company }}
         </span>
@@ -52,7 +55,7 @@
           {{ pos.timeFrame }}
         </span>
       </div>
-      <ul>
+      <ul style="margin-top: 0.5rem;">
         <li v-for="task in pos.tasks">
           {{ task }}
         </li>
@@ -63,8 +66,8 @@
   <br>
   <hr>
   <!-- Education -->
-  <div id="education" class="full-width-container education">
-    <h3>Education</h3>
+  <div id="education" class="full-horizontal">
+    <h2>Education</h2>
     <span v-for="unit in units">
       {{ unit }}
     </span>
@@ -73,15 +76,15 @@
   <br>
   <hr>
   <!-- PROJECTS -->
-  <div id="projects" class="full-width-container ">
-    <h3>Projects</h3>
+  <div id="projects" class="full-horizontal">
+    <h2>Projects</h2>
     <div v-for="(project, projIdx) in projects" :key="project.title - projIdx">
-      <img :src="project.image" alt="project image">
+      <img class="project-image" :src="project.image" alt="project image">
       <span>
           <span>
-            <h5>
+            <h4>
               {{ project.title }}
-            </h5>
+            </h4>
             <span>
               <span v-if="project.links.live === 'N/A'">
                 N/A

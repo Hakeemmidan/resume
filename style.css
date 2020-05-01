@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+body {
+  margin: 0; }
+
+* {
+  font-family: "Lato", Helvetica, sans-serif;
+  line-height: 1.5; }
+
+.project-image {
+  width: 30rem; }
+
+.full-horizontal {
+  padding: 0 15vw;
+  position: relative; }
+
+.personal-image {
+  height: 20rem;
+  border-radius: 50%;
+  margin: 1rem 0 0 3rem; }
+
+#work-experience {
+  background-color: #4d85bd;
+  color: #d0e7ff;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  animation: slide-right-to-left 2s, text-appear 4s; }
+
+.u-space-between {
+  display: flex;
+  justify-content: space-between; }
+
+@media only screen and (max-width: 700px) {
+  html {
+    font-size: 85%; }
+  .full-horizontal {
+    padding: 0 5vw; }
+  .u-space-between {
+    flex-direction: column-reverse; }
+  .personal-image-container {
+    margin: auto; }
+  .personal-image {
+    margin: 0; } }
+
+@keyframes slide-right-to-left {
+  0% {
+    left: 100vw;
+    border-radius: 30%; }
+  100% {
+    left: 0vw; } }
+
+@keyframes text-appear {
+  0% {
+    color: transparent; }
+  50% {
+    color: transparent; } }
