@@ -94,7 +94,7 @@ let projects = new Vue({
       {
         image: 'assets/professional-blog_image.png',
         title: 'Professional Blog',
-        description: '',
+        description: 'My personal professional blog',
         highlights: [
           "Customized Hugo theme by introducing new archtypes and taxanomies",
           'Enhanced SEO by creating structured data markup and 20+ meta tags'
@@ -115,7 +115,7 @@ let projects = new Vue({
         description: 'An open-sourced user authorization',
         highlights: [
           'Connected Action Mailer with SMTP to deliver confirmation and password reset emails',
-          'Utilizing Sass to create mobily responsive minimalistic design'
+          'Utilized Sass to create mobily-responsive minimalistic design'
         ],
         tech: {
           database: 'PostgreSQL',

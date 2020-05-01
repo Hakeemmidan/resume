@@ -18,23 +18,38 @@ body {
   border-radius: 50%;
   margin: 1rem 0 0 3rem; }
 
+.project-container {
+  background-color: #f58700;
+  color: #fffce5;
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+  border-radius: 2rem; }
+  .project-container__link {
+    color: #fffce5; }
+
 #work-experience {
   height: auto;
   overflow: hidden;
-  max-height: 100vh;
   transform-origin: top;
   background-color: #4d85bd;
-  color: #d0e7ff;
+  color: #f4f9ff;
   animation: slide-right-to-left 2s, text-appear 4s; }
 
 #education {
   height: auto;
   overflow: hidden;
-  max-height: 100vh;
   transform-origin: top;
   background-color: #7caa2d;
-  color: #dff9b3;
+  color: #f9fbf6;
   animation: slide-left-to-right 2s, text-appear 4s; }
+
+#projects {
+  height: auto;
+  overflow: hidden;
+  transform-origin: top;
+  color: #f58700;
+  background-color: #FFDF77;
+  animation: slide-right-to-left 2s, text-appear 4s; }
 
 .u-space-between, .u-space-between__reverse-stack {
   display: flex;
@@ -57,26 +72,25 @@ body {
 @keyframes slide-right-to-left {
   0% {
     left: 100vw;
-    border-radius: 30%; }
+    border-radius: 3rem; }
   100% {
-    max-height: 3rem;
-    height: max-content;
-    left: 0vw; } }
+    left: 0vw;
+    max-height: 2.7rem; } }
 
 @keyframes slide-left-to-right {
   0% {
     right: 100vw;
-    border-radius: 30%; }
+    border-radius: 3rem; }
   100% {
-    max-height: 3rem;
-    height: max-content;
-    right: 0vw; } }
+    right: 0vw;
+    max-height: 2.7rem; } }
 
 @keyframes text-appear {
   0% {
-    color: transparent;
-    max-height: 3rem; }
+    max-height: 2.7rem;
+    color: transparent; }
   50% {
-    max-height: 3rem; }
+    max-height: 2.7rem; }
   70% {
+    max-height: 120vh;
     color: transparent; } }

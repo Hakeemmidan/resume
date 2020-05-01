@@ -8,10 +8,9 @@
   <title>Resume Webpage | Abdulhakeem Almidan</title>
 </head>
 <body>
-  
   <div class="u-space-between__reverse-stack full-horizontal">
     <div>
-      <h1>Abdulhhakeem Almidan</h1>
+      <h1>Abdulhakeem Almidan</h1>
       <div>
         <p>
           Hi, I’m Abdulhakeem. You can call Hakeem. I have experience building full-stack applications in many languages and
@@ -78,14 +77,11 @@
   </div>
 
   <br>
-  <hr>
+
   <!-- PROJECTS -->
   <div id="projects" class="full-horizontal">
     <h2>Projects</h2>
-    <div v-for="(project, projIdx) in projects" :key="project.title - projIdx">
-      <div>
-        <img class="project-image" :src="project.image" alt="project image">
-      </div>
+    <div v-for="(project, projIdx) in projects" :key="project.title - projIdx" class="project-container">
       <span>
           <span class="u-space-between">
             <h4 style="margin: 0;">
@@ -95,24 +91,22 @@
               <span v-if="project.links.live === 'N/A'">
                 N/A
               </span>
-              <a v-else :href="project.links.live">
+              <a v-else :href="project.links.live" class="project-container__link" >
                 live
               </a>
               &nbsp; | &nbsp;
               <span v-if="project.links.doc === 'N/A'">
                 N/A
               </span>
-              <a v-else :href="project.links.doc">
+              <a v-else :href="project.links.doc" class="project-container__link">
                 doc
               </a>
             </span>
           </span>
+
           <div>
             <div>
-              <div>
-                {{ project.description }}
-              </div>
-
+              {{ project.description }}
             </div>
             <ul>
               <li v-for="(highlight) in project.highlights" :key="highlight">
@@ -120,24 +114,26 @@
               </li>
             </ul>
             <span>
-              <div>Technologies</span>
-              <div>
-                <b>Database: </b> {{ project.tech.database }}
-                <!-- database -->
-              </div>
-              <div>
-                <b>Backend: </b> {{ project.tech.backend }}
-                <!-- backend -->
-              </div>
-              <div>
-                <b>Frontend: </b> {{ project.tech.frontend }}
-                <!-- frontend -->
-              </div>
+              <div>Technologies</div>
+                <div>
+                  Database: {{ project.tech.database }}
+                  <!-- database -->
+                </div>
+                <div>
+                  Backend: {{ project.tech.backend }}
+                  <!-- backend -->
+                </div>
+                <div>
+                  Frontend: {{ project.tech.frontend }}
+                  <!-- frontend -->
+                </div>
             </span>
           </div>
       </span>
     </div>
   </div>
+
+  <br>
 
   <!-- CONTACT -->
 
