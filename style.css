@@ -27,6 +27,21 @@ body {
   .project-container__link {
     color: #fffce5; }
 
+.online-presence-items-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0.7rem; }
+
+.online-presence-logo {
+  height: 3rem; }
+
+.link {
+  opacity: 0.75;
+  color: black; }
+  @media (hover: hover) {
+    .link:hover {
+      opacity: 1.0; } }
+
 #work-experience {
   height: auto;
   overflow: hidden;

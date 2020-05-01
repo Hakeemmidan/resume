@@ -5,13 +5,24 @@ body {
 // ------------------------------- imports ------------------------------- // 
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
 
+// ------------------------------- mixins ------------------------------- //
+@mixin hover-supported {    
+    @media (hover: hover) { 
+      @content;
+    }
+}
+
 // ------------------------------- variables ------------------------------- //
 $font-family: 'Lato', Helvetica, sans-serif;
 $font-height: 1.5;
+$color-black: black;
 $color-sky-blue: #4d85bd;
 $color-sky-blue-light: #f4f9ff;
 $color-leafy-green: #7caa2d;
 $color-leafy-green-light: #f9fbf6;
+$color-golden-yellow: #FFDF77;
+$color-golden-yellow-light:#fffce5;
+$color-bright-orange: #f58700;
 
 // ------------------------------- selectors ------------------------------- //
 * {
@@ -35,14 +46,35 @@ $color-leafy-green-light: #f9fbf6;
 }
 
 .project-container {
-  background-color: hsl(33, 100%, 48%);
-  color: #fffce5;
+  background-color: $color-bright-orange;
+  color: $color-golden-yellow-light;
   padding: 1rem 2rem;
   margin-bottom: 2rem;
   border-radius: 2rem;
 
   &__link {
-    color: #fffce5;
+    color: $color-golden-yellow-light;
+  }
+}
+
+.online-presence-items-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0.7rem;
+}
+
+.online-presence-logo {
+  height: 3rem;
+}
+
+.link {
+  opacity: 0.75;
+  color: $color-black;
+
+  @include hover-supported() {
+    &:hover {
+      opacity: 1.0;
+    }
   }
 }
 
@@ -68,8 +100,8 @@ $color-leafy-green-light: #f9fbf6;
   height: auto;
   overflow: hidden;
   transform-origin: top;
-  color: #f58700;
-  background-color: #FFDF77;
+  color: $color-bright-orange;
+  background-color: $color-golden-yellow;
   animation: slide-right-to-left 2s, text-appear 4s;
 }
 
