@@ -54,6 +54,10 @@ $color-leafy-green-light: #dff9b3;
 .u-space-between {
   display: flex;
   justify-content: space-between;
+
+  &__reverse-stack {
+      @extend .u-space-between;
+  }
 }
 
 // ------------------------------- media queries ------------------------------- //
@@ -67,7 +71,11 @@ $color-leafy-green-light: #dff9b3;
   }
 
   .u-space-between {
-    flex-direction: column-reverse;
+    flex-direction: column;
+
+    &__reverse-stack {
+      flex-direction: column-reverse;
+    }
   }
 
   .personal-image-container {

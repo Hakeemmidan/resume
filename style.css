@@ -32,7 +32,7 @@ body {
   color: #dff9b3;
   animation: slide-left-to-right 2s, text-appear 4s; }
 
-.u-space-between {
+.u-space-between, .u-space-between__reverse-stack {
   display: flex;
   justify-content: space-between; }
 
@@ -41,8 +41,10 @@ body {
     font-size: 85%; }
   .full-horizontal {
     padding: 2rem 5vw; }
-  .u-space-between {
-    flex-direction: column-reverse; }
+  .u-space-between, .u-space-between__reverse-stack {
+    flex-direction: column; }
+    .u-space-between__reverse-stack {
+      flex-direction: column-reverse; }
   .personal-image-container {
     margin: auto; }
   .personal-image {

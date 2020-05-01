@@ -9,7 +9,7 @@
 </head>
 <body>
   
-  <div class="u-space-between full-horizontal">
+  <div class="u-space-between__reverse-stack full-horizontal">
     <div>
       <h1>Abdulhhakeem Almidan</h1>
       <div>
@@ -37,7 +37,7 @@
   </div>
 
   <br>
-  
+
   <!-- WORK EXPERIENCE -->
   <div id="work-experience" class="full-horizontal">
     <h2>Work Experience</h2>
@@ -47,7 +47,7 @@
           {{ pos.title }}
         </b>
       </div>
-      <div class="u-space-between">
+      <div class="u-space-between__reverse-stack">
         <span>
           {{ pos.company }}
         </span>
@@ -61,6 +61,7 @@
         </li>
       </ul>
     </div>
+    <br>
   </div>
   
   <br>
@@ -82,10 +83,12 @@
   <div id="projects" class="full-horizontal">
     <h2>Projects</h2>
     <div v-for="(project, projIdx) in projects" :key="project.title - projIdx">
-      <img class="project-image" :src="project.image" alt="project image">
+      <div>
+        <img class="project-image" :src="project.image" alt="project image">
+      </div>
       <span>
-          <span>
-            <h4>
+          <span class="u-space-between">
+            <h4 style="margin: 0;">
               {{ project.title }}
             </h4>
             <span>

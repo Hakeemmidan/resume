@@ -44,7 +44,7 @@ let education = new Vue({
   el: "#education",
   data: {
     units: [
-      'BS Finance - Oregon State University | 2014 - 2019',
+      'B.S. Finance - Oregon State University | 2014 - 2019',
       'Software Engineering - App Academy | Summer 2019'
     ]
   }
