@@ -17,11 +17,11 @@ $color-sky-blue-light: #d0e7ff;
 }
 
 .project-image {
-  width: 30rem;
+  width: 15rem;
 }
 
 .full-horizontal {
-  padding: 0 15vw;
+  padding: 2rem 15vw;
   position: relative;
 }
 
@@ -34,8 +34,6 @@ $color-sky-blue-light: #d0e7ff;
 #work-experience {
   background-color: $color-sky-blue;
   color: $color-sky-blue-light;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
   animation: slide-right-to-left 2s, text-appear 4s;
 }
 
@@ -52,7 +50,7 @@ $color-sky-blue-light: #d0e7ff;
   }
 
   .full-horizontal {
-    padding: 0 5vw;
+    padding: 2rem 5vw;
   }
 
   .u-space-between {
