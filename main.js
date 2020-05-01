@@ -128,7 +128,7 @@ let projects = new Vue({
         description: 'An open-sourced user authorization',
         highlights: [
           'Connected Action Mailer with SMTP to deliver confirmation and password reset emails',
-          'Utilized Sass to create mobily-responsive minimalistic design'
+          'Utilized Sass to create mobile-friendly minimalistic design'
         ],
         tech: {
           database: 'PostgreSQL',
