@@ -55,7 +55,7 @@ let projects = new Vue({
   data: {
     projects: [
       {
-        image: 'assets/OSUChat_image.png',
+        image: 'assets/osuchat_image.png',
         title: 'OSUChat',
         description: 'Oregon State University’s first fully functional chat system',
         highlights: [
@@ -73,7 +73,7 @@ let projects = new Vue({
         }
       },
       {
-        image: 'assets/WiRR_image.png',
+        image: 'assets/wirr_image.png',
         title: 'Wikipedia Reliability Rater (group project: 4 developers)',
         description: 'A Wikipedia article reliability measurement tool',
         highlights: [
@@ -92,7 +92,7 @@ let projects = new Vue({
         }
       },
       {
-        image: 'assets/blog_image.png',
+        image: 'assets/professional-blog_image.png',
         title: 'Professional Blog',
         description: '',
         highlights: [
@@ -125,6 +125,25 @@ let projects = new Vue({
         links: {
           doc: 'https://github.com/Hakeemmidan/rails-user-auth',
           live: 'N/A'
+        }
+      },
+      {
+        image: 'assets/jewely_image.png',
+        title: 'Jewely',
+        description: 'An Etsy inspired [mock] e-commerce marketplace',
+        highlights: [
+          'Connected window.localStorage with shopping cart to avoid querying database every time a user updates cart; resulting in faster site performance',
+          'Implemented sign-in form autofill by utilizing jQuery for element selection and JavaScript asynchronous behavior for animated appearance',
+          'Integrated multi- photo attachment feature using Amazon S3, JSON JBuilder, and Ruby on Rails’ Active Storage'
+        ],
+        tech: {
+          database: 'PostgreSQL',
+          backend: 'Ruby on Rails',
+          frontend: 'React, Redux'
+        },
+        links: {
+          doc: 'https://github.com/Hakeemmidan/Jewely',
+          live: 'https://jewely-fsp.herokuapp.com/'
         }
       },
     ]
