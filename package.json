@@ -6,7 +6,7 @@
     "compile:sass": "node-sass ./main.scss ./style.css"
   },
   "devDependencies": {
-    "node-sass": "^4.13.0"
+    "node-sass": "^4.14.0"
   },
   "repository": {
     "type": "git",
