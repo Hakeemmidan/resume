@@ -14,17 +14,6 @@ let workExperience = new Vue({
         ]
       },
       {
-        title: "Communication Representative",
-        company: "Ettihad Cultural Center (ECC) at Oregon State University",
-        timeFrame: "Aug 2017 - Jun 2018",
-        tasks: [
-          'Organized 10+ events, including the Ettihad Cultural Festival, which hosted 2000+ attendees',
-          'Directed a team of 15 people through rehearsals and performance in Ettihad Cultural Festival',
-          'Advocated for international students (primarily from South and Central Asia, and North Africa), and aided in conflict resolution',
-          'Acted as the MC for two events that collaborated with other university departments and cultural centers'
-        ]
-      },
-      {
         title: "Student Advisory Board Member",
         company: "Student Leadership & Involvement (SLI) at Oregon State University",
         timeFrame: "Sep 2018 – Dec 2018",
@@ -34,6 +23,17 @@ let workExperience = new Vue({
           'Reviewed unit programs, services, and facilities and made recommendations to staff to support and enhance the success of OSU students',
           'Served as a sounding board for the leadership of the SLI unit',
           'Served as a liaison between the ASOSU, SFC, and SLI unit'
+        ]
+      },
+      {
+        title: "Communication Representative",
+        company: "Ettihad Cultural Center (ECC) at Oregon State University",
+        timeFrame: "Aug 2017 - Jun 2018",
+        tasks: [
+          'Organized 10+ events, including the Ettihad Cultural Festival, which hosted 2000+ attendees',
+          'Directed a team of 15 people through rehearsals and performance in Ettihad Cultural Festival',
+          'Advocated for international students (primarily from South and Central Asia, and North Africa), and aided in conflict resolution',
+          'Acted as the MC for two events that collaborated with other university departments and cultural centers'
         ]
       },
     ]
