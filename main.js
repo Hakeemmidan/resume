@@ -7,10 +7,11 @@ let workExperience = new Vue({
         company: "Fiskkit",
         timeFrame: "Dec 2019 - present",
         tasks: [
-          'Currently leading configuration and customization of Google Analytics',
+          "Led and implemented email confirmation through Mailchimp's Mandrill API, Laravel, MySQL, and React/Redux",
+          'Led, configured, and customized Google Analytics with 5 filtered views for data analysis',
           'Led and implemented mobile responsiveness of website by utilizing CSS media queries  and React',
-          'Fetched information from MySQL database through Laravel (PHP) backend and displayed in React / Redux frontend',
-          'Interacted with codebase through Docker containers to allow for remote access'
+          'Made 40+  enhancements/bug fixes on both the frontend and backend (ongoing)',
+          'Applied Scrum practices with a team of 5 to optimize development, testing and deployment'
         ]
       },
       {
