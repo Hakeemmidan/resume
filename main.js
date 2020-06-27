@@ -73,6 +73,26 @@ let projects = new Vue({
         }
       },
       {
+        title: 'Poll App (group project: 3 developers) ',
+        description: 'A polling app where users submit two pictures for their friends to vote on',
+        highlights: [
+          'Collaborated with 2 other full- stack developers and team lead in an Agile environment using ZenHub for ticket management',
+          'Wrote integration tests(35 specs) using Mocha, Chai and in-memory mock- database for better app maintainability',
+          'Led and maintained cookie- based authentication API routes using http - cookies and json web tokens for better security',
+          'Created friends React context that dynamically updates friends as they are followed / unfollowed for better UX',
+          'Led project presentations during evaluations'
+        ],
+        tech: {
+          database: 'MongoDB',
+          backend: 'Express, Mongoose, Socket.io',
+          frontend: 'React, Material UI'
+        },
+        links: {
+          doc: 'https://github.com/hatchways/team-eagle',
+          live: 'N/A'
+        }
+      },
+      {
         title: 'Wikipedia Reliability Rater (group project: 4 developers)',
         description: 'A Wikipedia article reliability measurement tool',
         highlights: [
