@@ -3,15 +3,26 @@ let workExperience = new Vue({
   data: {
     positions: [
       {
-        title: "Software Engineer",
+        title: "Full-Stack Software Engineer",
         company: "Fiskkit",
         timeFrame: "Dec 2019 - present",
         tasks: [
-          "Led and implemented email confirmation through Mailchimp's Mandrill API, Laravel, MySQL, and React/Redux",
+          'Worked in Agile environment with a team of 5 developers and 1 designer to optimize development, testing and deployment',
+          "Led and implemented email confirmation feature for signup flow through Mailchimp's Mandrill API, Laravel, MySQL, and React/Redux",
           'Led, configured, and customized Google Analytics with 5 filtered views for data analysis',
           'Led and implemented mobile responsiveness of website by utilizing CSS media queries  and React',
-          'Made 40+  enhancements/bug fixes on both the frontend and backend (ongoing)',
-          'Applied Scrum practices with a team of 5 to optimize development, testing and deployment'
+          'Made 40+ (ongoing) front- end and back - end enhancements including mission critical bug fixes that caused entire page errors',
+          'Leveraged knowledge in (hard) React, Redux, Sass, Laravel, MySQL, Docker, (soft) teamwork, and problem solving'
+        ]
+      },
+      {
+        title: 'Full-Stack Software Engineer',
+        company: 'App Academy',
+        timeFrame: 'Jun 2019 - Dec 2019',
+        tasks: [
+          'Participated in daily pair programming sessions involving many technical challenges ranging from the database abstraction layer, data access layer, to the presentation layer',
+          'Completed 17 intensive 90 - 100 hour work weeks involving lectures, weekly meetings, daily standup meetings, pair - programming, individual programming, technical reading, and presentation',
+          'Leveraged knowledge in (hard) PostgreSQL, MongoDB, Ruby on Rails, Express, React, Redux, Sass, CSS, RSpec, Capybara, (soft) communication, teamwork, adaptability, problem solving, time management, leadership, and attention to detail'
         ]
       },
       {
@@ -23,7 +34,8 @@ let workExperience = new Vue({
           'Recommended the student fee amount required to support the Student Leadership & Involvement annual budget request to the Budget Manager',
           'Reviewed unit programs, services, and facilities and made recommendations to staff to support and enhance the success of OSU students',
           'Served as a sounding board for the leadership of the SLI unit',
-          'Served as a liaison between the ASOSU, SFC, and SLI unit'
+          'Served as a liaison between the ASOSU, SFC, and SLI unit',
+          'Leveraged knowledge in (hard) MS Excel, VBA, (soft) communication, public speaking, and networking'
         ]
       },
       {
@@ -31,10 +43,11 @@ let workExperience = new Vue({
         company: "Ettihad Cultural Center (ECC) at Oregon State University",
         timeFrame: "Aug 2017 - Jun 2018",
         tasks: [
-          'Organized 10+ events, including the Ettihad Cultural Festival, which hosted 2000+ attendees',
+          'Organized 10 + events, including the Ettihad Cultural Festival, which hosted 2000 + attendees',
           'Directed a team of 15 people through rehearsals and performance in Ettihad Cultural Festival',
-          'Advocated for international students (primarily from South and Central Asia, and North Africa), and aided in conflict resolution',
-          'Acted as the MC for two events that collaborated with other university departments and cultural centers'
+          'Acted as the MC for two events that collaborated with other university departments and cultural centers',
+          'Started programming in Ruby and JavaScript to solve daily abstract problems involving the cultural center',
+          'Leveraged knowledge in (hard) Ruby, JavaScript, MS Excel, VBA, (soft) communication, public speaking, event planning, teamwork, and leadership'
         ]
       },
     ]
