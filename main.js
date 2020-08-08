@@ -16,7 +16,7 @@ let workExperience = new Vue({
         ]
       },
       {
-        title: 'Full-Stack Software Engineer',
+        title: 'Full-Stack Software Engineering Student',
         company: 'App Academy',
         timeFrame: 'Jun 2019 - Dec 2019',
         tasks: [
