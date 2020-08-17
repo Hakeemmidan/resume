@@ -8,10 +8,10 @@ let workExperience = new Vue({
         timeFrame: "Dec 2019 - present",
         tasks: [
           "Worked in Agile environment with a team of 5 developers and 1 designer to optimize development, testing and deployment",
-          "Implemented email confirmation full- stack feature through Mailchimp's Mandrill API allowing for authenticated signups",
+          "Implemented email confirmation full-stack feature through Mailchimp's Mandrill API allowing for authenticated signups",
           "Integrated and customized Google Analytics into React / Redux to track many metrics including traffic sources, session duration, and general user interaction; allowing team to pinpoint areas that need improvement",
-          'Led screen- responsiveness feature of entire website by utilizing CSS media queries and React, making it mobile/ tablet responsive',
-          "Made 40 + (ongoing) front - end and back - end enhancements including mission critical bug fixes that caused entire page errors",
+          'Led screen-responsiveness feature of entire website by utilizing CSS media queries and React, making it mobile/ tablet responsive',
+          "Made 40 + (ongoing) frontend and backend enhancements including mission critical bug fixes that caused entire page errors",
           "Leveraged knowledge in (hard) React, Redux, Sass, Laravel, MySQL, Docker, (soft) teamwork, and problem solving"
         ]
       },
@@ -20,8 +20,8 @@ let workExperience = new Vue({
         company: 'App Academy',
         timeFrame: 'Jun 2019 - Dec 2019',
         tasks: [
-          "Participated in daily pair - programming sessions involving many technical challenges ranging from database abstraction layer, data access layer, to the presentation layer.This required continuous learning, communication, and switching in coding environments",
-          "Completed 17 intensive 90 - 100 hour work weeks involving lectures, weekly meetings, daily standup meetings, pair - programming, individual programming, technical reading, and presentation, resulting in significant increase in programming abilities",
+          "Participated in daily pair-programming sessions involving many technical challenges ranging from database abstraction layer, data access layer, to the presentation layer.This required continuous learning, communication, and switching in coding environments",
+          "Completed 17 intensive 90-100 hour work weeks involving lectures, weekly meetings, daily standup meetings, pair-programming, individual programming, technical reading, and presentation, resulting in significant increase in programming abilities",
           "Leveraged knowledge in (hard) SQL, MongoDB, Ruby on Rails, Express, React, Redux, Sass, CSS, RSpec, Capybara(soft) communication, teamwork, adaptability, problem solving, time management, leadership, and attention to detail "
         ]
       },
@@ -44,7 +44,7 @@ let workExperience = new Vue({
         timeFrame: "Aug 2017 - Jun 2018",
         tasks: [
           "Organized 10 + events, including the Ettihad Cultural Festival, which hosted 2000 + walking attendees.This required communication with hundreds of contacts, event planning, weekly meetings, and lots of teamwork",
-          "Directed team of 15 people through rehearsals and performance in Ettihad Cultural Festival, resulting in error - free performance",
+          "Directed team of 15 people through rehearsals and performance in Ettihad Cultural Festival, resulting in error-free performance",
           "Acted as MC for 2 events that collaborated with other university departments, enhancing my public speaking and leadership",
           "Started programming in Ruby and JavaScript to solve daily abstract problems involving the cultural center",
           "Leveraged knowledge in(hard) Ruby, JavaScript, VBA(soft) communication, public speaking, event planning, teamwork, and leadership "
@@ -89,9 +89,9 @@ let projects = new Vue({
         title: 'Poll App (group project: 3 developers) ',
         description: 'A polling app where users submit two pictures for their friends to vote on',
         highlights: [
-          'Collaborated with 2 other full- stack developers and team lead in an Agile environment using ZenHub for ticket management',
-          'Wrote integration tests(35 specs) using Mocha, Chai and in-memory mock- database for better app maintainability',
-          'Led and maintained cookie- based authentication API routes using http - cookies and json web tokens for better security',
+          'Collaborated with 2 other full-stack developers and team lead in an Agile environment using ZenHub for ticket management',
+          'Wrote integration tests(35 specs) using Mocha, Chai and in-memory mock-database for better app maintainability',
+          'Led and maintained cookie-based authentication API routes using http-cookies and json web tokens for better security',
           'Created friends React context that dynamically updates friends as they are followed / unfollowed for better UX',
           'Led project presentations during evaluations'
         ],
@@ -109,7 +109,7 @@ let projects = new Vue({
         title: 'Wikipedia Reliability Rater (group project: 4 developers)',
         description: 'A Wikipedia article reliability measurement tool',
         highlights: [
-          "Leveraged ‘request’, ‘cheerio’, and ‘url - parse’ Node packages to web crawl / scrape page specific information(citations, author statistics, etc.)",
+          "Leveraged ‘request’, ‘cheerio’, and ‘url-parse’ Node packages to web crawl / scrape page specific information(citations, author statistics, etc.)",
           'Employed MediaWiki API to extract targeted Wikipedia article information for display',
           'Integrated D3.js Node package on the frontend to display author-specific data'
         ],
@@ -180,7 +180,7 @@ let projects = new Vue({
         highlights: [
           'Connected window.localStorage with shopping cart to avoid querying database every time a user updates cart; resulting in faster site performance',
           'Implemented sign-in form autofill by utilizing jQuery for element selection and JavaScript asynchronous behavior for animated appearance',
-          'Integrated multi- photo attachment feature using Amazon S3, JSON JBuilder, and Ruby on Rails’ Active Storage'
+          'Integrated multi-photo attachment feature using Amazon S3, JSON JBuilder, and Ruby on Rails’ Active Storage'
         ],
         tech: {
           database: 'PostgreSQL',
