@@ -72,7 +72,7 @@ body {
 
 @media only screen and (max-width: 700px) {
   html {
-    font-size: 85%; }
+    font-size: 110%; }
   .full-horizontal {
     padding: 2rem 5vw; }
   .u-space-between, .u-space-between__reverse-stack {
@@ -82,6 +82,8 @@ body {
   .personal-image-container {
     margin: auto; }
   .personal-image {
+    max-width: 90vw;
+    max-height: 90vw;
     margin: 0; } }
 
 @keyframes slide-right-to-left {
