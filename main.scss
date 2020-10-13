@@ -1,10 +1,3 @@
-body {
-  margin: 0;
-}
-
-// ------------------------------- imports ------------------------------- // 
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
-
 // ------------------------------- mixins ------------------------------- //
 @mixin hover-supported {    
     @media (hover: hover) { 
@@ -13,7 +6,7 @@ body {
 }
 
 // ------------------------------- variables ------------------------------- //
-$font-family: 'Lato', Helvetica, sans-serif;
+$font-family: sans-serif;
 $font-height: 1.5;
 $color-black: black;
 $color-sky-blue: #4d85bd;
@@ -28,6 +21,10 @@ $color-bright-orange: #f58700;
 * {
   font-family: $font-family;
   line-height: $font-height;
+}
+
+body {
+  margin: 0;
 }
 
 .project-image {

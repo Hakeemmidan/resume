@@ -1,10 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+* {
+  font-family: sans-serif;
+  line-height: 1.5; }
+
 body {
   margin: 0; }
-
-* {
-  font-family: "Lato", Helvetica, sans-serif;
-  line-height: 1.5; }
 
 .project-image {
   width: 15rem; }
@@ -72,7 +71,7 @@ body {
 
 @media only screen and (max-width: 700px) {
   html {
-    font-size: 110%; }
+    font-size: 85%; }
   .full-horizontal {
     padding: 2rem 5vw; }
   .u-space-between, .u-space-between__reverse-stack {
@@ -82,8 +81,6 @@ body {
   .personal-image-container {
     margin: auto; }
   .personal-image {
-    max-width: 90vw;
-    max-height: 90vw;
     margin: 0; } }
 
 @keyframes slide-right-to-left {
