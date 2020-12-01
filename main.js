@@ -8,6 +8,7 @@ let workExperience = new Vue({
         company: 'Public Investment Fund of Saudi Arabia',
         timeFrame: 'Aug 2020 - present',
         tasks: [],
+        employment: '(full-time)'
       },
       {
         title: 'Full-Stack Software Engineer',
@@ -21,6 +22,7 @@ let workExperience = new Vue({
           'Made 40+ (ongoing) front-end and back-end enhancements including mission critical bug fixes that caused entire page errors',
           'Leveraged knowledge in (hard) React, Redux, Sass, Laravel, MySQL, Docker, (soft) teamwork, and problem solving',
         ],
+        employment: '(part-time)'
       },
       {
         title: 'Full-Stack Software Engineering Student',
@@ -31,6 +33,7 @@ let workExperience = new Vue({
           'Completed 17 intensive 90-100 hour work weeks involving lectures, weekly meetings, daily standup meetings, pair-programming, individual programming, technical reading, and presentation, resulting in significant increase in programming abilities',
           'Leveraged knowledge in (hard) SQL, MongoDB, Ruby on Rails, Express, React, Redux, Sass, CSS, RSpec, Capybara (soft) communication, teamwork, adaptability, problem solving, time management, leadership, and attention to detail ',
         ],
+        employment: '(full-time)'
       },
       {
         title: 'Student Advisory Board Member',
@@ -45,6 +48,7 @@ let workExperience = new Vue({
           'Served as a liaison between the ASOSU, SFC, and SLI unit',
           'Leveraged knowledge in (hard) MS Excel, VBA, (soft) communication, public speaking, and networking',
         ],
+        employment: '(part-time)'
       },
       {
         title: 'Communication Representative',
@@ -57,6 +61,7 @@ let workExperience = new Vue({
           'Started programming in Ruby and JavaScript to solve daily abstract problems involving the cultural center',
           'Leveraged knowledge in (hard) Ruby, JavaScript, VBA (soft) communication, public speaking, event planning, teamwork, and leadership ',
         ],
+        employment: '(part-time)'
       },
     ],
   },
@@ -66,6 +71,7 @@ let education = new Vue({
   el: "#education",
   data: {
     units: [
+      'Executive Education ​- UC Berkeley​ | ​Fall 2020',
       'B.S. Finance - Oregon State University | 2014 - 2019',
       'Software Engineering - App Academy | Summer 2019'
     ]

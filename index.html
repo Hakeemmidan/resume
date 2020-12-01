@@ -42,10 +42,13 @@
   <div id="work-experience" class="full-horizontal">
     <h2>Work Experience</h2>
     <div v-for="pos in positions">
-      <div>
+      <div class="u-space-between">
         <b>
           {{ pos.title }}
         </b>
+        <span>
+          {{ pos.employment }}
+        </span>
       </div>
       <div class="u-space-between">
         <span>
