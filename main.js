@@ -4,7 +4,7 @@ let workExperience = new Vue({
     positions: [
       {
         title:
-          'Graduate Development Program - Technology (Cybersecurity/IT) Track',
+          'Graduate Development Program - Technology (Cybersecurity/IT) Track Apprentice',
         company: 'Public Investment Fund of Saudi Arabia',
         timeFrame: 'Aug 2020 - present',
         tasks: [],
