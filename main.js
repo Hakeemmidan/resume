@@ -95,8 +95,7 @@ let projects = new Vue({
           frontend: 'React, Redux'
         },
         links: {
-          doc: 'https://github.com/Hakeemmidan/OSUChat',
-          live: 'http://www.osuchat.com'
+          doc: 'https://github.com/Hakeemmidan/OSUChat'
         }
       },
       {
