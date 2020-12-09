@@ -19,7 +19,7 @@ let workExperience = new Vue({
           "Implemented email confirmation full-stack feature through Mailchimp's Mandrill API, allowing for authenticated emails/signups",
           'Integrated and customized Google Analytics into React/Redux to track many metrics including traffic sources, session duration, and general user interaction; allowing team to pinpoint areas that need improvement',
           'Led screen-responsiveness of entire website by utilizing CSS media queries and React, increasing mobile users proportion by +23%',
-          'Made 40+ (ongoing) front-end and back-end enhancements including mission critical bug fixes that caused entire page errors',
+          'Made 50+ (ongoing) front-end and back-end enhancements including mission critical bug fixes that caused entire page errors',
           'Leveraged knowledge in (hard) React, Redux, Sass, Laravel, MySQL, Docker, (soft) teamwork, and problem solving',
         ],
         employment: '(part-time)'
