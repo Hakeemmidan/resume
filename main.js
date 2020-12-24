@@ -5,7 +5,7 @@ let workExperience = new Vue({
       {
         title:
           'Graduate Development Program - Technology (Cybersecurity/IT) Track Apprentice',
-        company: 'Public Investment Fund of Saudi Arabia',
+        company: 'Public Investment Fund',
         timeFrame: 'Aug 2020 - present',
         tasks: ["Learning about / working with Linux OS server administration (with Red Hat), Windows OS server administration (with Microsoft), networking (with CompTIA), virtualization (with VMware), cybersecurity (with CompTIA), and computer hacking (with EC-Council)"],
         employment: '(full-time)'
