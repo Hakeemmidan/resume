@@ -38,6 +38,8 @@ body {
 
 .personal-image {
   height: 20rem;
+  width: 20rem;
+  object-fit: cover;
   border-radius: 50%;
   margin: 1rem 0 0 3rem;
 }
@@ -138,6 +140,10 @@ body {
   .personal-image {
     margin: 0;
   }
+}
+
+.u-background-plaid-colors {
+  background: linear-gradient(0deg, rgba(91,239,189,1) 0%, rgba(101,218,255,0.9850315126050421) 100%);
 }
 
 // ------------------------------- animations ------------------------------- //
