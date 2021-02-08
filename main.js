@@ -4,12 +4,21 @@ let workExperience = new Vue({
     positions: [
       {
         title:
+          'Technology Intern',
+        company: 'NEOM',
+        timeFrame: 'Jan 2021 - present',
+        tasks: [
+          "(Part of Public Investment Fund's Graduate Development Program)"
+        ],
+        employment: '(full-time)'
+      },
+      {
+        title:
           'Graduate Development Program - Technology (Cybersecurity/IT) Track Apprentice',
         company: 'Public Investment Fund',
         timeFrame: 'Aug 2020 - present',
         tasks: [
-          "Learned about / worked with Linux OS server administration (with Red Hat), Windows OS server administration (with Microsoft), networking (with CompTIA), virtualization (with VMware), cybersecurity (with CompTIA), and computer hacking (with EC-Council)",
-          "Currently interning at NEOM with the technology team"
+          "Learned about / worked with Linux OS server administration (with Red Hat), Windows OS server administration (with Microsoft), networking (with CompTIA), virtualization (with VMware), cybersecurity (with CompTIA), and computer hacking (with EC-Council)"
         ],
         employment: '(full-time)'
       },
@@ -86,7 +95,7 @@ let projects = new Vue({
   data: {
     projects: [
       {
-        title: 'OSUChat',
+        title: 'OSUChat (archived)',
         description: 'Oregon State University’s first fully functional chat system',
         highlights: [
           'Installed Action Cable / web sockets to build a chat mechanism for simultaneous live communication',
@@ -195,7 +204,7 @@ let projects = new Vue({
         description: 'An Etsy inspired [mock] e-commerce marketplace',
         highlights: [
           'Learned and merged Redux with React and created easily accessible global state for faster site performance, and easier frontend development process',
-          'Utilized Active Record and Action Controller for fetching and processing data through RESTful APIs, standardizing APIs',
+          'Utilized Active Record and Action Controller for fetching and processing data through RESTful APIs',
           'Integrated multi-photo attachment feature using Amazon S3, JSON JBuilder, and Ruby on Rails’ Active Storage for better UI/UX'
         ],
         tech: {
