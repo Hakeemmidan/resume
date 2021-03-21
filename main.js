@@ -99,7 +99,7 @@ let projects = new Vue({
         description: 'Oregon State University’s first fully functional chat system',
         highlights: [
           'Installed Action Cable / web sockets to build a chat mechanism for simultaneous live communication',
-          'Linked React to backend and created chat scroll pagination mechanism without use of external gems or libraries for faster site performance'
+          'Created chat scroll pagination mechanism without use of external gems or libraries for faster site performance (invovled work on frontend and backend)'
         ],
         tech: {
           database: 'PostgreSQL',
@@ -107,7 +107,8 @@ let projects = new Vue({
           frontend: 'React, Redux'
         },
         links: {
-          doc: 'https://github.com/Hakeemmidan/OSUChat'
+          doc: 'https://github.com/Hakeemmidan/OSUChat',
+          live: 'N/A'
         }
       },
       {
