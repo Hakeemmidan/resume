@@ -135,7 +135,7 @@ let projects = new Vue({
         title: 'Wikipedia Reliability Rater (group project: 4 developers)',
         description: 'A Wikipedia article reliability measurement tool',
         highlights: [
-          "Leveraged ‘request’, ‘cheerio’, and ‘url-parse’ Node packages to web crawl / scrape page specific information(citations, author statistics, etc.)",
+          "Leveraged ‘request’, ‘cheerio’, and ‘url-parse’ Node packages to web crawl / scrape page specific information (citations, author statistics, etc.)",
           'Employed MediaWiki API to extract targeted Wikipedia article information for display',
           'Integrated D3.js Node package on the frontend to display author-specific data'
         ],
