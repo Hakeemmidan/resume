@@ -4,19 +4,21 @@ let workExperience = new Vue({
     positions: [
       {
         title:
-          'Technology Intern',
-        company: 'NEOM',
-        timeFrame: 'Jan 2021 - present',
+          'Software Engineer',
+        company: 'Horse',
+        timeFrame: 'Mar 2021 - present',
         tasks: [
-          "(Part of Public Investment Fund's Graduate Development Program)"
+          'Interviewed software engineering candidates (ongoing)',
+          'Made 21 [merged] Pull Requests [so far], that included various changes from new features to error fixes (on GitHub)',
+          'Leveraging knowledge in (hard) React, Shopify’s Polaris, styled-components, Ruby on Rails, RSpec, Active Record, Action Controller, Active Support, Active Job, (soft) agile software development, teamwork, and problem-solving',
         ],
         employment: '(full-time)'
       },
       {
         title:
           'Graduate Development Program - Technology (Cybersecurity/IT) Track Apprentice',
-        company: 'Public Investment Fund',
-        timeFrame: 'Aug 2020 - present',
+        company: 'Large Investment Fund / NEOM',
+        timeFrame: 'Aug 2020 - Mar 2021',
         tasks: [
           "Learned about / worked with Linux OS server administration (with Red Hat), Windows OS server administration (with Microsoft), networking (with CompTIA), virtualization (with VMware), cybersecurity (with CompTIA), and computer hacking (with EC-Council)"
         ],
