@@ -27,7 +27,7 @@ let workExperience = new Vue({
       {
         title: 'Full-Stack Software Engineer',
         company: 'Fiskkit',
-        timeFrame: 'Dec 2019 - present',
+        timeFrame: 'Dec 2019 - Mar 2021',
         tasks: [
           'Worked in Agile environment with a team of 5 developers and 1 designer to optimize development, testing and deployment. This required continuous communication and work overlap',
           "Implemented email confirmation full-stack feature through Mailchimp's Mandrill API, allowing for authenticated emails/signups",
@@ -186,7 +186,7 @@ let projects = new Vue({
         }
       },
       {
-        title: 'Rails User Auth',
+        title: 'Rails User Auth (archived)',
         description: 'An open-sourced user authorization',
         highlights: [
           'Connected Action Mailer with SMTP to deliver confirmation and password reset emails',
