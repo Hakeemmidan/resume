@@ -8,8 +8,8 @@ let workExperience = new Vue({
         company: 'Horse',
         timeFrame: 'Mar 2021 - present',
         tasks: [
-          'Interviewed software engineering candidates (ongoing)',
-          'Made 21 [merged] Pull Requests [so far], that included various changes from new features to error fixes (on GitHub)',
+          'Interviewed software engineering candidates',
+          'Made 43 [merged] Pull Requests on GitHub [so far], that included various changes from new features to error fixes',
           'Leveraging knowledge in (hard) React, Shopify’s Polaris, styled-components, Ruby on Rails, RSpec, Active Record, Action Controller, Active Support, Active Job, (soft) agile software development, teamwork, and problem-solving',
         ],
         employment: '(full-time)'
