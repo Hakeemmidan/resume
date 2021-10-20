@@ -6,7 +6,7 @@ let workExperience = new Vue({
         title:
           'Software Engineer',
         company: 'Horse',
-        timeFrame: 'Mar 2021 - present',
+        timeFrame: 'Mar 2021 - Sep 2021',
         tasks: [
           'Interviewed software engineering candidates',
           'Made 49 merged Pull Requests on GitHub, that included various changes from new features to error fixes',
