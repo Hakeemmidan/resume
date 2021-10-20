@@ -20,7 +20,8 @@ let workExperience = new Vue({
         company: 'Large Investment Fund / NEOM',
         timeFrame: 'Aug 2020 - Mar 2021',
         tasks: [
-          "Learned about / worked with Linux OS server administration (with Red Hat), Windows OS server administration (with Microsoft), networking (with CompTIA), virtualization (with VMware), cybersecurity (with CompTIA), and computer hacking (with EC-Council)"
+          "Learned about / worked with Linux OS server administration (with Red Hat), Windows OS server administration (with Microsoft), networking (with CompTIA), virtualization (with VMware), cybersecurity (with CompTIA), and computer hacking (with EC-Council)",
+          'Researched various technical topics and made presentations and reports to co-workers and executives',
         ],
         employment: '(full-time)'
       },
